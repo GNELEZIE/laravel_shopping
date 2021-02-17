@@ -272,6 +272,10 @@ input,textarea{
     line-height: 50px;
     color: #666;
 }
+
+
+
+
 @media (max-width: 1024px) {
     .mercado-clone-wrap.open{
         left:0;
