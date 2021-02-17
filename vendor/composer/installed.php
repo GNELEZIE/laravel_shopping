@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '5259361ed670ea31be7ef9c0c59bf5609ffaad23',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -222,6 +222,15 @@
       array (
       ),
       'reference' => '8c3d0a3f6af734494ad8f6fbbee0ba92422859f3',
+    ),
+    'hardevine/shoppingcart' => 
+    array (
+      'pretty_version' => '2.9',
+      'version' => '2.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2fc6eff895ae6d94978125f6bc65aceadc4873c5',
     ),
     'illuminate/auth' => 
     array (
@@ -494,12 +503,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '5259361ed670ea31be7ef9c0c59bf5609ffaad23',
     ),
     'laravel/sail' => 
     array (
