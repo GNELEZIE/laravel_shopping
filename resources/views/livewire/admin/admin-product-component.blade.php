@@ -1,7 +1,7 @@
 <div class="container mt-5 pt-5">
    <div class="row mt-5 pt-5" style="margin-top: 29px;">
     <div class="col-md-12">
-    <a  type="button" class="btn btn-success mt-5 mb-3" href="" style="margin-bottom:5px !important">Ajouter une categorie</a>
+    <a  type="button" class="btn btn-success mt-5 mb-3" href="{{ route('admin.addproduct')}}" style="margin-bottom:5px !important">Ajouter un produit</a>
      
       <tr>   <table class="table table-striped">
           @if(Session::has('message'))
@@ -36,9 +36,9 @@
 {{--  {{ route('admin.editproduct',['product_slug'=>$product->slug])}}  --}}
                 <td>
                 <a href="" class="btn btn-primary d-inline"><i class="far fa-eye"></i></a> 
-                <a href="" class="btn btn-success d-inline" ><i class="fas fa-edit"></i></span></a> 
+                <a href="{{ route('admin.editproduct',['product_slug'=>$product->slug])}}" class="btn btn-success d-inline" ><i class="fas fa-edit"></i></span></a> 
                 <form action="" method="post" class="d-inline supprimer" style="display: inline !important">
-                <a href="#" wire:click.prevent="d " type="button"  class="btn btn-danger d-inline"><i class="fas fa-trash"></i></a> 
+                <a href="#" wire:click.prevent="deleteProduct({{ $product->id }})" type="button"  class="btn btn-danger d-inline"><i class="fas fa-trash"></i></a> 
                 </form>               
                 
                 
