@@ -1,4 +1,4 @@
- 
+
 	<main id="main" class="main-site left-sidebar">
 
 		<div class="container">
@@ -62,8 +62,8 @@
 						<ul class="product-list grid-products equal-container">
 
 							@foreach ($products as $product )
-								
-						 
+
+
 								<li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 ">
 									<div class="product product-style-3 equal-elem ">
 										<div class="product-thumnail">
@@ -81,7 +81,7 @@
 
 							@endforeach
 
-{{--  
+{{--
 							<li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 ">
 								<div class="product product-style-3 equal-elem ">
 									<div class="product-thumnail">
@@ -298,7 +298,7 @@
 								<li class="category-item">
 									<a href="#" class="cate-link">Kid’s Toys</a>
 								</li>  --}}
-							
+
 							</ul>
 						</div>
 					</div><!-- Categories widget-->
@@ -433,4 +433,3 @@
 
 		</div><!--end container-->
 	</main>
- 
